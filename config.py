@@ -25,7 +25,7 @@ EDGE_THRESHOLD = 0.3                 # Lowered to include more edge patches
 
 # Inference / aggregation
 PATCH_STEP = 1                       # Smaller step for better reconstruction
-BACKPROJECTION_ITERS = 12            # More iterations for refinement
+BACKPROJECTION_ITERS = 10           # More iterations for refinement
 
 # Patch budget (None or 0 = no cap)
 MAX_PATCHES = 600000                     # Use all available patches from all images

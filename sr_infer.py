@@ -91,7 +91,7 @@ def back_projection(hr, lr, scale, iterations=8):
     
     return hr_cp
 
-def compute_edge_weights(lr_patch, D_L, edge_strength_threshold=0.1):
+def compute_edge_weights(lr_patch, D_L, edge_strength_threshold=0.3):
     """
     Compute edge-aware weights for dictionary atoms based on patch characteristics.
     Returns weights that encourage edge-preserving atoms for edge-rich patches.
